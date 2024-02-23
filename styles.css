@@ -1,0 +1,163 @@
+body {
+  background-color: #4da6ff;
+}
+
+.container {
+  margin: auto;
+  width: 650px;
+  padding: 15px;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.header {
+  color: #333333;
+  text-shadow: 2px 1px #4da6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.add-task {
+  height: 60px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  width: 75%;
+  margin-right: 1%;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  border: 2px solid #4da6ff;
+ 
+}
+
+#addButton {
+  width: 60px;
+  font-size: 30px;
+  color: white;
+  background-color: #4da6ff;
+  border: hidden;
+}
+
+#addButton:hover {
+  cursor: pointer;
+  background-color: rgb(34, 50, 101);
+}
+
+
+
+.tasks {
+  margin: auto;
+  margin-top: 15px;
+  width: 87%;
+ 
+  max-height: 220px;
+  overflow-y: auto;
+  
+}
+
+.task-item {
+  height: 40px;
+  border: 1px #bfbfbf solid;
+  border-left: hidden;
+  border-right: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #e6f9ff;
+  justify-content: space-around;
+}
+
+.task-desc {
+  border: hidden;
+  width: 75%;
+  font-size: 20px;
+  color: dodgerblue;
+}
+
+.checkItem {
+  height: 15px;
+  width: 15px;
+  align-items: flex-start;
+}
+
+.item-b {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: hidden;
+  background-color: #e6f9ff;
+  color: #6c8aa7;
+}
+
+.item-b:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.lower-section {
+  margin: auto;
+  width: 87%;
+  margin-top: 15px;
+  height: 70px;
+  position: relative;
+}
+
+#removeButton {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  height: 60%;
+  width: 35%;
+  background-color: #4da6ff;
+  font-size: 17px;
+  color: white;
+  border: hidden;
+}
+
+#removeButton:hover {
+  cursor: pointer;
+  background-color: rgb(34, 50, 101);
+}
+
+[class|=progress] {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  height: 60%;
+  width: 45%;
+}
+
+.progress {
+  outline: 1px solid #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #737373;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.progress-green-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #53c653;
+}
+
+
+  
+
+
+/*# sourceMappingURL=styles.css.map */
